@@ -7,7 +7,7 @@ client = Groq(
     api_key="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", #0731
 )
 
-directory = r'unzipped_folder\data_new_filtered\folder_5'  # Raw string
+directory = '/home/ravshan/speaklish_data_prep/feedback_with_llama/unzipped_folder/data_new_filtered/folder_5'
 
 
 system_message_modified = {
