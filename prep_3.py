@@ -7,7 +7,7 @@ client = Groq(
     api_key="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", #3107
 )
 
-directory = 'data\folder_3'
+directory = 'unzipped_folder\data_new_filtered\folder_3'
 
 system_message_modified = {
     "role": "system",
