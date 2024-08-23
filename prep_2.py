@@ -4,7 +4,7 @@ from groq import Groq
 import os
 
 client = Groq(
-    api_key="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", #adh
+    api_key="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", #adh
 )
 
 directory = '/home/ravshan/speaklish_data_prep/feedback_with_llama/unzipped_folder/data_new_filtered/folder_2'
