@@ -3,8 +3,7 @@ import string
 from groq import Groq
 import os
 
-client = Groq("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", #cs
-)
+client = Groq(api_key="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")
 
 directory = '/home/ravshan/speaklish_data_prep/feedback_with_llama/unzipped_folder/data_new_filtered/folder_1'
 
