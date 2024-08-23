@@ -12,10 +12,10 @@ def unzip_folder(zip_file_path, extract_to_dir):
     """Unzip the downloaded file to the specified directory."""
     with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
         zip_ref.extractall(extract_to_dir)
-
+# https://drive.google.com/file/d/1GtlSSHtxvtkTcX39lrBc1AVlfJuzzNmf/view?usp=sharing
 def main():
     # Replace 'YOUR_FILE_ID' with your actual file ID
-    file_id = '15LlJZDkicrEGBStQmfPei0XFzTQt18DE'
+    file_id = '1GtlSSHtxvtkTcX39lrBc1AVlfJuzzNmf'
     zip_file_path = 'downloaded_folder.zip'
     unzip_dir = 'unzipped_folder'
 
